@@ -1,0 +1,5 @@
+{
+  "name": "ClinicFlow SaaS",
+  "description": "A multi-tenant clinic management system with AI-powered diagnosis, token management, and role-based access control.",
+  "requestFramePermissions": []
+}
