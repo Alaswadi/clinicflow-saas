@@ -1,7 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { TrendingUp, Users, DollarSign, Calendar } from 'lucide-react';
-import AppwriteStatus from '../components/AppwriteStatus';
 
 const data = [
   { name: 'Mon', revenue: 40000, patients: 24 },
@@ -19,8 +18,6 @@ const AdminDashboard: React.FC = () => {
         <h2 className="text-2xl font-bold text-slate-800">Clinic Overview</h2>
         <p className="text-slate-500">Welcome back, Dr. Owner</p>
       </div>
-
-      <AppwriteStatus />
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
